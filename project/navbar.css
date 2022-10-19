@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    box-shadow: 0 2px 4px #333;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.navMenu{
+    display: flex;
+    gap: 3rem;
+}

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-size: 62.5%; Bramhanstra for font proportion for resposiveness
+} */
+
+h1{
+    font-size: 4rem;
+}
+
+body{
+    height: 100vh;
+    background-image: url('https://preview.colorlib.com/theme/luxuryhotel/images/xbig_image_1.jpg.pagespeed.ic.5s09Wzh_9t.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    color: #ffff;
+    background-color: #1203037a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: #443b31bf;
+    align-items: center;
+    padding: 1rem;
+    /* border: 2px solid ; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar2{
+
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1rem;
+
+}
+#button{
+    color: #ffff;
+    border-color: #ffff;
+    background-color: transparent;
+    padding: 0.6rem ;
+}
+.Welcome{
+    gap: 1rem;
+    height: 100vh;
+    /* border: 2px solid; */
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+}
+#button2{
+    opacity: 0.9;
+    border: none;
+    font-family: monospace;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #b99365;
+        padding: 0.8rem 1.5rem;
+       /* display: inline; */
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .navbar2{
+        display: none;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
+ 
+}
+.page2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+}
+.page2_1{
+    padding: 2.5rem ;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+}
+.page2_2{
+    width: 350vh;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://preview.colorlib.com/theme/luxuryhotel/images/xf_img_1.png.pagespeed.ic.CCxxzj2h2i.webp');
+
+}
+h2{ 
+    /* border: 2px solid; */
+    margin-top: -40px;
+    font-weight: lighter;
+    font-weight: 200;
+    text-align: center;
+    font-size: 2.5rem;
+   font-family: "Playfair Display", times, serif;
+}
+span{
+
+    font-family: "Rubik", arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+p{
+    /* border: 2px solid; */
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #ccc;
+    font-family: "Rubik", arial, sans-serif;
+}
+Button{
+    border: none;
+    color: #ffff;
+    background-color:  #b99365;
+     padding: 12px 30px;
+     letter-spacing: .15em;
+}
+.thirdpage{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.third{
+    gap: 2rem;
+    /* border: 2px solid red; */
+    padding: 0px 15vw;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 100vh;
+    /* align-items: center; */
+
+}
+.page3_1{
+    /* justify-content: space-around; */
+    width: 100vh;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    height:80vh ;
+    }
+    #president{
+        height: 25vh;
+        align-items: center;
+        /* border: 2px solid; */
+    }
+    #pres{
+        font-family: "Playfair Display", times, serif;
+        font-size: large;
+        text-transform: capitalize;
+        color: #b99365;
+        font-weight: bold;
+    }
+
+    .image1{
+        background-color: #333;
+        height: 55vh;
+        width: 40vw;
+        background-image: url('https://preview.colorlib.com/theme/luxuryhotel/images/ximg_1.jpg.pagespeed.ic.EckVlxh2M-.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.page3_2{
+    gap: 1.5rem;
+    width: 100vh;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    height:80vh ;
+}
+.image2{
+    /* border: 2px solid; */
+    height: 50vh;
+    width: 50vh;
+    background-image: url('https://preview.colorlib.com/theme/luxuryhotel/images/ximg_2.jpg.pagespeed.ic.SXSUsNNSef.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.image3{
+    /* border: 2px solid; */
+    height: 40vh;
+    width: 50vh;
+    background-image: url('https://preview.colorlib.com/theme/luxuryhotel/images/ximg_4.jpg.pagespeed.ic.f8K9bdb2wI.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h6{
+    text-align: center;
+}
+#featured{
+    font-size: 2rem;
+    color: #333;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Playfair Display", times, serif;
+}
+#button3{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    /* align-items: center; */
+}
